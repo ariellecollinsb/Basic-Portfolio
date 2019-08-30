@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #ededed;
     margin: 0;
@@ -34,6 +37,17 @@ nav {
 nav a {
     color: #777;
     text-decoration: none;
+    padding-left: 7px;
+}
+
+nav a:not(:last-child) {
+    border-right: 1px solid #ccc;
+    padding-right: 7px;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
 }
 
 .main-content {
@@ -41,6 +55,7 @@ nav a {
     border: 1px solid #ddd;
     width: 960px;
     margin: 20px auto;
+    padding: 0 20px;
 }
 
 footer {
@@ -48,9 +63,12 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 75px;
 }
-
+/* I'm considering making the <small> absolutely relative to the <footer> element.*/
 .footer-content {
     margin: 0 auto;
     width: 960px;
     text-align: center;
+    color: #ccc;
+    padding-top: 48px;
+
 }
