@@ -78,5 +78,26 @@ footer {
     text-align: center;
     color: #ccc;
     padding-top: 48px;
+}
 
+.container {
+
+    margin-top: 20px;
+    background-color: #fff;
+    
+}
+
+input, textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 200px;
+}
+
+.submit {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4aaaa5;
+    color: #fff;
 }
